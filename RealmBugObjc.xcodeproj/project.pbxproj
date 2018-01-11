@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		017F348213A65F5582BA7879 /* libPods-RealmBugObjc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A74D37B7E5D69A93F6FBDC29 /* libPods-RealmBugObjc.a */; };
-		5B8510BB2007C7480068C92E /* ALPS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8510B92007C7410068C92E /* ALPS.framework */; };
-		5B8510BC2007C7480068C92E /* ALPS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8510B92007C7410068C92E /* ALPS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5B8510BF200815EF0068C92E /* ALPS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8510BD200815E70068C92E /* ALPS.framework */; };
+		5B8510C0200815EF0068C92E /* ALPS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8510BD200815E70068C92E /* ALPS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5BFE86201FDF293E0054ACF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFE861F1FDF293E0054ACF4 /* AppDelegate.m */; };
 		5BFE86231FDF293E0054ACF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFE86221FDF293E0054ACF4 /* ViewController.m */; };
 		5BFE86261FDF293E0054ACF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFE86241FDF293E0054ACF4 /* Main.storyboard */; };
@@ -46,7 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5B8510BC2007C7480068C92E /* ALPS.framework in Embed Frameworks */,
+				5B8510C0200815EF0068C92E /* ALPS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,7 +57,7 @@
 		109C448CF94240638D9D8883 /* Pods-RealmBugObjcUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmBugObjcUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmBugObjcUITests/Pods-RealmBugObjcUITests.release.xcconfig"; sourceTree = "<group>"; };
 		320EFB7DC0EE669BD1A87E5A /* Pods-RealmBugObjcUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmBugObjcUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmBugObjcUITests/Pods-RealmBugObjcUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4B59923E15B8DB69F4ED2A8F /* Pods-RealmBugObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmBugObjc.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmBugObjc/Pods-RealmBugObjc.release.xcconfig"; sourceTree = "<group>"; };
-		5B8510B92007C7410068C92E /* ALPS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ALPS.framework; sourceTree = "<group>"; };
+		5B8510BD200815E70068C92E /* ALPS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ALPS.framework; sourceTree = "<group>"; };
 		5BFE861B1FDF293E0054ACF4 /* RealmBugObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmBugObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BFE861E1FDF293E0054ACF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BFE861F1FDF293E0054ACF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B8510BB2007C7480068C92E /* ALPS.framework in Frameworks */,
+				5B8510BF200815EF0068C92E /* ALPS.framework in Frameworks */,
 				017F348213A65F5582BA7879 /* libPods-RealmBugObjc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,7 +183,7 @@
 		FCBE00A8561AAAA66BCAA8CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5B8510B92007C7410068C92E /* ALPS.framework */,
+				5B8510BD200815E70068C92E /* ALPS.framework */,
 				A74D37B7E5D69A93F6FBDC29 /* libPods-RealmBugObjc.a */,
 				9B8B645706683A6DC680F58B /* libPods-RealmBugObjcTests.a */,
 				5D97766B60D87653F0E1E0F8 /* libPods-RealmBugObjcUITests.a */,
